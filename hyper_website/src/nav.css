@@ -83,13 +83,55 @@
 {
     display: flex;
 }
-.main_header .container .icon .second_icon p
+.main_header .container .icon .second_icon .link
 {
     margin-right: 5px;
     font-size: 27px;
     cursor: pointer;
+    color: #0989ff;
 }
-
+.header
+{
+    width: 100%;
+    padding: 22px;
+    box-shadow:  rgba(0,0,0,0.35) 0px 5px 15px;
+}
+.header .container
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .container .nav ul
+{
+    display: flex;
+}
+.header .container .nav ul li
+{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav ul li .link
+{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+.header .container .auth
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header .container .auth button
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
 
 
 
