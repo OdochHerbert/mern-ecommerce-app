@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.top-banner
+{
+    padding: 30px 40px;
+    width: 100%;
+    background: #e3edf6;
+}
+.top-banner .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top-banner .container .detail
+{
+    margin-top: 8%;
+    margin-left: 30px;
+}
+.top-banner .container .detail h2
+{
+    font-size: 42px;
+    color: #010f1c;
+    margin-right: 50%;
+    margin-bottom: 40px;
+}
+.top-banner .container .detail .link
+{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: 010f1c;
+    background: #fff;
+    transition: 0.5s;
+}
+.top-banner .container .detail .link:hover
+{
+    background: #0989ff;
+    color: #fff;
+}
+.product_type
+{
+    padding: 20px 30px;
+    width: 100%;
+}
+.product_type .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.product_type .container .box .img_box
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #e8f2ff;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product_type .container .box .img_box img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 45px;
+    transition: 0.5s;
+
+}
+.product_type .container .box .img_box:hover img
+{
+    transform: scale(1.7);
+}
+.product_type .container .box .detail 
+{
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.product_type .container .box .detail p
+{
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.about
+{
+    padding: 40px 50px;
+    width: 100%;
+}
+.about .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .box
+{
+    padding: 20px 30px;
+    display: flex;
+    background: #ecf2f7;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.about .container .box .icon
+{
+    color: #e44c8c;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.about .container .box .icon .detail
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.about .container .box .icon .detail h3
+{
+    color: #010f1c;
+}
+.about .container .box .icon .detail p
+{
+    color: #9a9a9a;
+    font-size: 5px;
+}
